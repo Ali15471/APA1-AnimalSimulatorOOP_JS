@@ -10,7 +10,7 @@ export class Animal {
   }
 
   set weight(weight) {
-    return this.#weight = weight;
+    this.#weight = weight;
   }
 
   display() {}
